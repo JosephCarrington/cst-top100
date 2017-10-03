@@ -1,0 +1,73 @@
+.main-info {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1c8dc+0,ffffff+100 */
+  background: #a1c8dc; /* Old browsers */
+  background: -moz-linear-gradient(left, #a1c8dc 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #a1c8dc 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #a1c8dc 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1c8dc', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+  color: white;
+  padding: 1em;
+}
+
+.main-info h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+
+}
+
+.headshot {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.other-details {
+  background: #eee;
+  padding: 1em;
+}
+
+.details-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1em 2em;
+}
+
+@media all and (min-width: 1000px) {
+  .details {
+    flex: 3;
+    margin-right: 8%;
+  }
+
+  .connect-and-photos {
+    flex: 1;
+  }
+}
+
+.connect-and-photos .header {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.connect-and-photos .social {
+  display: flex;
+}
+
+.connect-and-photos .social div {
+  font-size: 2em;
+  margin-right: 1rem;
+}
+
+.connect-and-photos .contact {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: white;
+  background: #e15556;
+  margin: 1rem 0;
+}
